@@ -39,7 +39,7 @@
    "provides" : {
       "Alien::UnicornEngine" : {
          "file" : "lib/Alien/UnicornEngine.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -54,5 +54,5 @@
          "url" : "https://github.com/selectiveintellect/p5-alien-unicorn"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
