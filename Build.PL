@@ -25,13 +25,14 @@ my $build = Alien::Base::ModuleBuild->new(
         protocol => 'http',
         host => 'github.com',
         location => '/unicorn-engine/unicorn/archive/',
-        exact_filename => '0.9.tar.gz',
-        exact_version => '0.9',
+        exact_filename => 'master.tar.gz',
+        exact_version => '1.0',
     },
     alien_msys => 1,
     alien_bin_requires => {
         'Alien::gmake' => 0.11,
     },
+    alien_provides_cflags => '-fPIC',
     alien_build_commands => [
         '%{gmake} clean all',
     ],

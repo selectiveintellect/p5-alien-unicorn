@@ -1,7 +1,7 @@
-package Alien::LibUnicorn;
+package Alien::UnicornEngine;
 use parent 'Alien::Base';
 
-our $VERSION = '0.03';
+our $VERSION = '0.01';
 
 1;
 
@@ -19,7 +19,7 @@ Alien::UnicornEngine - Perl extension to install Unicorn-Engine from L<www.unico
 Alien::UnicornEngine is a perl module that enables the installation of the open
 source disassembly library Unicorn-Engine from
 L<http://www.unicorn-engine.org> on the system or locate the existing
-installation if any. It is currently setup to look for version 3.0.4.
+installation if any. It is currently setup to use the Github master branch.
 
 You can use it in the C<Build.PL> file if you're using Module::Build or
 C<Makefile.PL> file if you're using ExtUtils::MakeMaker.
