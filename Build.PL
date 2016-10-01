@@ -7,13 +7,13 @@ my $build = Alien::Base::ModuleBuild->new(
     license => 'mit',
     dist_author => 'Vikas N. Kumar <vikas@cpan.org>',
     dist_abstract => 'Alien module for Unicorn Engine from www.unicorn-engine.org',
+    create_readme => 1,
     configure_requires => {
         'Module::Build' => 0,
         'Alien::Base::ModuleBuild' => '0.029',
     },
     build_requires => {
         'Alien::Base::ModuleBuild' => '0.029',
-        'Test::Alien' => 0,
         'Module::Build' => 0,
         'Test::More' => 0,
     },
@@ -39,7 +39,6 @@ my $build = Alien::Base::ModuleBuild->new(
     alien_install_commands => [
         '%{gmake} install PREFIX=%s',
     ],
-    alien_version_check => '%{pkg_config} --atleast-version 0.9 %n && %{pkg_config} --modversion %n',
     meta_merge => {
         resources => {
             repository => 'https://github.com/selectiveintellect/p5-alien-unicorn',

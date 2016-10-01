@@ -19,7 +19,6 @@
             "Alien::Base::ModuleBuild" : "0.029",
             "Alien::gmake" : "0.11",
             "Module::Build" : "0",
-            "Test::Alien" : "0",
             "Test::More" : "0"
          }
       },
@@ -39,7 +38,7 @@
    "provides" : {
       "Alien::UnicornEngine" : {
          "file" : "lib/Alien/UnicornEngine.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       }
    },
    "release_status" : "stable",
@@ -54,5 +53,5 @@
          "url" : "https://github.com/selectiveintellect/p5-alien-unicorn"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }

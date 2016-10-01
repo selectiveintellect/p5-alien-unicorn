@@ -1,3 +1,6 @@
+- 0.03
+    - Fixing test failures on FreeBSD
+
 - 0.02
     - Add a README for PAUSE
 

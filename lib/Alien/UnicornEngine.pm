@@ -1,7 +1,7 @@
 package Alien::UnicornEngine;
 use parent 'Alien::Base';
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 1;
 
@@ -35,7 +35,7 @@ C<Makefile.PL> file if you're using ExtUtils::MakeMaker.
 
 =head1 VERSION
 
-0.02
+0.03
 
 =head1 METHODS
 
