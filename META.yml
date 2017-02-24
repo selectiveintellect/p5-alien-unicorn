@@ -9,6 +9,7 @@ build_requires:
   Test::More: '0'
 configure_requires:
   Alien::Base::ModuleBuild: '0.029'
+  Archive::Extract: '0'
   Module::Build: '0'
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4211, CPAN::Meta::Converter version 2.143240'

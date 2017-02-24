@@ -1,3 +1,6 @@
+- 0.05
+    - If using system install the unit test should check that correctly
+
 - 0.04
     - Using Unicorn Engine release version 1.0
 

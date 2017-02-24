@@ -25,6 +25,7 @@
       "configure" : {
          "requires" : {
             "Alien::Base::ModuleBuild" : "0.029",
+            "Archive::Extract" : "0",
             "Module::Build" : "0"
          }
       },

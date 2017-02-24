@@ -11,6 +11,7 @@ my $build = Alien::Base::ModuleBuild->new(
     configure_requires => {
         'Module::Build' => 0,
         'Alien::Base::ModuleBuild' => '0.029',
+        'Archive::Extract' => 0,
     },
     build_requires => {
         'Alien::Base::ModuleBuild' => '0.029',
