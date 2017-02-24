@@ -25,7 +25,7 @@ my $build = Alien::Base::ModuleBuild->new(
         protocol => 'http',
         host => 'github.com',
         location => '/unicorn-engine/unicorn/archive/',
-        exact_filename => 'master.tar.gz',
+        exact_filename => '1.0.tar.gz',
         exact_version => '1.0',
     },
     alien_msys => 1,

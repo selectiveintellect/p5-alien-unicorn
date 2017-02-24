@@ -20,7 +20,7 @@ name: Alien-UnicornEngine
 provides:
   Alien::UnicornEngine:
     file: lib/Alien/UnicornEngine.pm
-    version: '0.03'
+    version: '0.04'
 requires:
   Alien::Base: '0.029'
   File::ShareDir: '1.00'
@@ -28,4 +28,4 @@ resources:
   bugtracker: https://github.com/selectiveintellect/p5-alien-unicorn/issues
   license: http://www.opensource.org/licenses/mit-license.php
   repository: https://github.com/selectiveintellect/p5-alien-unicorn
-version: '0.03'
+version: '0.04'
